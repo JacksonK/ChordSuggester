@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A94EE907C284E170714643A8 /* Pods_ChordSuggester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056A7C9DACBF36B7A44BCE1B /* Pods_ChordSuggester.framework */; };
+		AB08C32607D5898F7351F826 /* Pods_ChordSuggesterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139B48D69E5E0DCD69DD7CBD /* Pods_ChordSuggesterUITests.framework */; };
+		CEB9E0A91D666FE3FA577BA5 /* Pods_ChordSuggesterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043CB656498A386934BB0905 /* Pods_ChordSuggesterTests.framework */; };
+		DC089F6E20BA3819008CB2DB /* Progression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC089F6D20BA3819008CB2DB /* Progression.swift */; };
+		DC089F7020BA390C008CB2DB /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC089F6F20BA390C008CB2DB /* Chord.swift */; };
+		DC0CEDBA20B5E27C00D9575A /* ProgressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CEDB920B5E27C00D9575A /* ProgressionViewController.swift */; };
+		DC306C28210011A500A77D9A /* D4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C092100119600A77D9A /* D4.mp3 */; };
+		DC306C29210011A500A77D9A /* A#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C0A2100119700A77D9A /* A#4.mp3 */; };
+		DC306C2A210011A500A77D9A /* E5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C0B2100119800A77D9A /* E5.mp3 */; };
+		DC306C2B210011A500A77D9A /* D5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C0C2100119800A77D9A /* D5.mp3 */; };
+		DC306C2C210011A500A77D9A /* F#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C0D2100119900A77D9A /* F#4.mp3 */; };
+		DC306C2D210011A500A77D9A /* G#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C0E2100119900A77D9A /* G#4.mp3 */; };
+		DC306C2E210011A500A77D9A /* D#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C0F2100119A00A77D9A /* D#4.mp3 */; };
+		DC306C2F210011A500A77D9A /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C102100119A00A77D9A /* C3.mp3 */; };
+		DC306C30210011A500A77D9A /* G4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C112100119A00A77D9A /* G4.mp3 */; };
+		DC306C31210011A500A77D9A /* F#5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C122100119B00A77D9A /* F#5.mp3 */; };
+		DC306C32210011A500A77D9A /* C#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C132100119B00A77D9A /* C#4.mp3 */; };
+		DC306C33210011A500A77D9A /* A4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C142100119C00A77D9A /* A4.mp3 */; };
+		DC306C34210011A500A77D9A /* D#5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C152100119C00A77D9A /* D#5.mp3 */; };
+		DC306C35210011A500A77D9A /* A3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C162100119D00A77D9A /* A3.mp3 */; };
+		DC306C36210011A500A77D9A /* C5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C172100119D00A77D9A /* C5.mp3 */; };
+		DC306C37210011A500A77D9A /* E3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C182100119E00A77D9A /* E3.mp3 */; };
+		DC306C38210011A500A77D9A /* B3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C192100119E00A77D9A /* B3.mp3 */; };
+		DC306C39210011A500A77D9A /* D3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C1A2100119F00A77D9A /* D3.mp3 */; };
+		DC306C3A210011A500A77D9A /* G#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C1B2100119F00A77D9A /* G#3.mp3 */; };
+		DC306C3B210011A500A77D9A /* G3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C1C210011A000A77D9A /* G3.mp3 */; };
+		DC306C3C210011A500A77D9A /* C#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C1D210011A000A77D9A /* C#3.mp3 */; };
+		DC306C3D210011A500A77D9A /* C4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C1E210011A100A77D9A /* C4.mp3 */; };
+		DC306C3E210011A500A77D9A /* F#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C1F210011A100A77D9A /* F#3.mp3 */; };
+		DC306C3F210011A500A77D9A /* F4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C20210011A200A77D9A /* F4.mp3 */; };
+		DC306C40210011A500A77D9A /* A#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C21210011A200A77D9A /* A#3.mp3 */; };
+		DC306C41210011A500A77D9A /* F3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C22210011A300A77D9A /* F3.mp3 */; };
+		DC306C42210011A500A77D9A /* F5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C23210011A300A77D9A /* F5.mp3 */; };
+		DC306C43210011A500A77D9A /* C#5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C24210011A400A77D9A /* C#5.mp3 */; };
+		DC306C44210011A500A77D9A /* D#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C25210011A400A77D9A /* D#3.mp3 */; };
+		DC306C45210011A500A77D9A /* B4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C26210011A500A77D9A /* B4.mp3 */; };
+		DC306C46210011A500A77D9A /* E4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC306C27210011A500A77D9A /* E4.mp3 */; };
+		DC4B342020A654D000C3DCE1 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4B341F20A654D000C3DCE1 /* SetupViewController.swift */; };
+		DC84FBAD20BD0C7500A0A5D8 /* CustomSuggestedChordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84FBAC20BD0C7500A0A5D8 /* CustomSuggestedChordCell.swift */; };
+		DC84FBAF20BD154600A0A5D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC84FBAE20BD154500A0A5D8 /* GoogleService-Info.plist */; };
 		DC8DB10420A2704C0007E934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DB10320A2704C0007E934 /* AppDelegate.swift */; };
 		DC8DB10620A2704C0007E934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DB10520A2704C0007E934 /* ViewController.swift */; };
 		DC8DB10920A2704C0007E934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8DB10720A2704C0007E934 /* Main.storyboard */; };
@@ -14,6 +54,8 @@
 		DC8DB10E20A2704C0007E934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8DB10C20A2704C0007E934 /* LaunchScreen.storyboard */; };
 		DC8DB11920A2704C0007E934 /* ChordSuggesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DB11820A2704C0007E934 /* ChordSuggesterTests.swift */; };
 		DC8DB12420A2704C0007E934 /* ChordSuggesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8DB12320A2704C0007E934 /* ChordSuggesterUITests.swift */; };
+		DC90D70120BB3BE200E42603 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90D70020BB3BE200E42603 /* CustomTableViewCell.swift */; };
+		DC90D70320BB756F00E42603 /* CustomChordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90D70220BB756F00E42603 /* CustomChordCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +76,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043CB656498A386934BB0905 /* Pods_ChordSuggesterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChordSuggesterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		056A7C9DACBF36B7A44BCE1B /* Pods_ChordSuggester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChordSuggester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		139B48D69E5E0DCD69DD7CBD /* Pods_ChordSuggesterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChordSuggesterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6083801BDD5782A4FE1A5239 /* Pods-ChordSuggester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordSuggester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChordSuggester/Pods-ChordSuggester.debug.xcconfig"; sourceTree = "<group>"; };
+		9D79FAB9A064BB5A88396A99 /* Pods-ChordSuggesterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordSuggesterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChordSuggesterUITests/Pods-ChordSuggesterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA087C49CBB389A3BD822322 /* Pods-ChordSuggesterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordSuggesterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChordSuggesterTests/Pods-ChordSuggesterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3ED2E7A6C38EF6714EC4258 /* Pods-ChordSuggesterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordSuggesterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChordSuggesterTests/Pods-ChordSuggesterTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFB16323007E77899343D7A4 /* Pods-ChordSuggester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordSuggester.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChordSuggester/Pods-ChordSuggester.release.xcconfig"; sourceTree = "<group>"; };
+		D1817BC52D365DDE59A28095 /* Pods-ChordSuggesterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordSuggesterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChordSuggesterUITests/Pods-ChordSuggesterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC089F6D20BA3819008CB2DB /* Progression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progression.swift; sourceTree = "<group>"; };
+		DC089F6F20BA390C008CB2DB /* Chord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		DC0CEDB920B5E27C00D9575A /* ProgressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionViewController.swift; sourceTree = "<group>"; };
+		DC306C092100119600A77D9A /* D4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D4.mp3; sourceTree = "<group>"; };
+		DC306C0A2100119700A77D9A /* A#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#4.mp3"; sourceTree = "<group>"; };
+		DC306C0B2100119800A77D9A /* E5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E5.mp3; sourceTree = "<group>"; };
+		DC306C0C2100119800A77D9A /* D5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D5.mp3; sourceTree = "<group>"; };
+		DC306C0D2100119900A77D9A /* F#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#4.mp3"; sourceTree = "<group>"; };
+		DC306C0E2100119900A77D9A /* G#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#4.mp3"; sourceTree = "<group>"; };
+		DC306C0F2100119A00A77D9A /* D#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#4.mp3"; sourceTree = "<group>"; };
+		DC306C102100119A00A77D9A /* C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C3.mp3; sourceTree = "<group>"; };
+		DC306C112100119A00A77D9A /* G4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G4.mp3; sourceTree = "<group>"; };
+		DC306C122100119B00A77D9A /* F#5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#5.mp3"; sourceTree = "<group>"; };
+		DC306C132100119B00A77D9A /* C#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#4.mp3"; sourceTree = "<group>"; };
+		DC306C142100119C00A77D9A /* A4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A4.mp3; sourceTree = "<group>"; };
+		DC306C152100119C00A77D9A /* D#5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#5.mp3"; sourceTree = "<group>"; };
+		DC306C162100119D00A77D9A /* A3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A3.mp3; sourceTree = "<group>"; };
+		DC306C172100119D00A77D9A /* C5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C5.mp3; sourceTree = "<group>"; };
+		DC306C182100119E00A77D9A /* E3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E3.mp3; sourceTree = "<group>"; };
+		DC306C192100119E00A77D9A /* B3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B3.mp3; sourceTree = "<group>"; };
+		DC306C1A2100119F00A77D9A /* D3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D3.mp3; sourceTree = "<group>"; };
+		DC306C1B2100119F00A77D9A /* G#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#3.mp3"; sourceTree = "<group>"; };
+		DC306C1C210011A000A77D9A /* G3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G3.mp3; sourceTree = "<group>"; };
+		DC306C1D210011A000A77D9A /* C#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#3.mp3"; sourceTree = "<group>"; };
+		DC306C1E210011A100A77D9A /* C4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C4.mp3; sourceTree = "<group>"; };
+		DC306C1F210011A100A77D9A /* F#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#3.mp3"; sourceTree = "<group>"; };
+		DC306C20210011A200A77D9A /* F4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F4.mp3; sourceTree = "<group>"; };
+		DC306C21210011A200A77D9A /* A#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#3.mp3"; sourceTree = "<group>"; };
+		DC306C22210011A300A77D9A /* F3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F3.mp3; sourceTree = "<group>"; };
+		DC306C23210011A300A77D9A /* F5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F5.mp3; sourceTree = "<group>"; };
+		DC306C24210011A400A77D9A /* C#5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#5.mp3"; sourceTree = "<group>"; };
+		DC306C25210011A400A77D9A /* D#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#3.mp3"; sourceTree = "<group>"; };
+		DC306C26210011A500A77D9A /* B4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B4.mp3; sourceTree = "<group>"; };
+		DC306C27210011A500A77D9A /* E4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E4.mp3; sourceTree = "<group>"; };
+		DC4B341F20A654D000C3DCE1 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		DC84FBAC20BD0C7500A0A5D8 /* CustomSuggestedChordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSuggestedChordCell.swift; sourceTree = "<group>"; };
+		DC84FBAE20BD154500A0A5D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DC8DB10020A2704C0007E934 /* ChordSuggester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChordSuggester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8DB10320A2704C0007E934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC8DB10520A2704C0007E934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +135,8 @@
 		DC8DB11F20A2704C0007E934 /* ChordSuggesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChordSuggesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8DB12320A2704C0007E934 /* ChordSuggesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordSuggesterUITests.swift; sourceTree = "<group>"; };
 		DC8DB12520A2704C0007E934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC90D70020BB3BE200E42603 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DC90D70220BB756F00E42603 /* CustomChordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChordCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94EE907C284E170714643A8 /* Pods_ChordSuggester.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB9E0A91D666FE3FA577BA5 /* Pods_ChordSuggesterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +160,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB08C32607D5898F7351F826 /* Pods_ChordSuggesterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E89A1098600325AA125DCC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6083801BDD5782A4FE1A5239 /* Pods-ChordSuggester.debug.xcconfig */,
+				BFB16323007E77899343D7A4 /* Pods-ChordSuggester.release.xcconfig */,
+				AA087C49CBB389A3BD822322 /* Pods-ChordSuggesterTests.debug.xcconfig */,
+				B3ED2E7A6C38EF6714EC4258 /* Pods-ChordSuggesterTests.release.xcconfig */,
+				9D79FAB9A064BB5A88396A99 /* Pods-ChordSuggesterUITests.debug.xcconfig */,
+				D1817BC52D365DDE59A28095 /* Pods-ChordSuggesterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50456F3692948A06D430DA5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				056A7C9DACBF36B7A44BCE1B /* Pods_ChordSuggester.framework */,
+				043CB656498A386934BB0905 /* Pods_ChordSuggesterTests.framework */,
+				139B48D69E5E0DCD69DD7CBD /* Pods_ChordSuggesterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC84FB6B20BCCAA100A0A5D8 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DC306C21210011A200A77D9A /* A#3.mp3 */,
+				DC306C0A2100119700A77D9A /* A#4.mp3 */,
+				DC306C162100119D00A77D9A /* A3.mp3 */,
+				DC306C142100119C00A77D9A /* A4.mp3 */,
+				DC306C192100119E00A77D9A /* B3.mp3 */,
+				DC306C26210011A500A77D9A /* B4.mp3 */,
+				DC306C1D210011A000A77D9A /* C#3.mp3 */,
+				DC306C132100119B00A77D9A /* C#4.mp3 */,
+				DC306C24210011A400A77D9A /* C#5.mp3 */,
+				DC306C102100119A00A77D9A /* C3.mp3 */,
+				DC306C1E210011A100A77D9A /* C4.mp3 */,
+				DC306C172100119D00A77D9A /* C5.mp3 */,
+				DC306C25210011A400A77D9A /* D#3.mp3 */,
+				DC306C0F2100119A00A77D9A /* D#4.mp3 */,
+				DC306C152100119C00A77D9A /* D#5.mp3 */,
+				DC306C1A2100119F00A77D9A /* D3.mp3 */,
+				DC306C092100119600A77D9A /* D4.mp3 */,
+				DC306C0C2100119800A77D9A /* D5.mp3 */,
+				DC306C182100119E00A77D9A /* E3.mp3 */,
+				DC306C27210011A500A77D9A /* E4.mp3 */,
+				DC306C0B2100119800A77D9A /* E5.mp3 */,
+				DC306C1F210011A100A77D9A /* F#3.mp3 */,
+				DC306C0D2100119900A77D9A /* F#4.mp3 */,
+				DC306C122100119B00A77D9A /* F#5.mp3 */,
+				DC306C22210011A300A77D9A /* F3.mp3 */,
+				DC306C20210011A200A77D9A /* F4.mp3 */,
+				DC306C23210011A300A77D9A /* F5.mp3 */,
+				DC306C1B2100119F00A77D9A /* G#3.mp3 */,
+				DC306C0E2100119900A77D9A /* G#4.mp3 */,
+				DC306C1C210011A000A77D9A /* G3.mp3 */,
+				DC306C112100119A00A77D9A /* G4.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		DC8DB0F720A2704C0007E934 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +235,8 @@
 				DC8DB11720A2704C0007E934 /* ChordSuggesterTests */,
 				DC8DB12220A2704C0007E934 /* ChordSuggesterUITests */,
 				DC8DB10120A2704C0007E934 /* Products */,
+				3E89A1098600325AA125DCC4 /* Pods */,
+				50456F3692948A06D430DA5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +255,16 @@
 			children = (
 				DC8DB10320A2704C0007E934 /* AppDelegate.swift */,
 				DC8DB10520A2704C0007E934 /* ViewController.swift */,
+				DC4B341F20A654D000C3DCE1 /* SetupViewController.swift */,
+				DC0CEDB920B5E27C00D9575A /* ProgressionViewController.swift */,
+				DC90D70020BB3BE200E42603 /* CustomTableViewCell.swift */,
+				DC90D70220BB756F00E42603 /* CustomChordCell.swift */,
+				DC84FBAC20BD0C7500A0A5D8 /* CustomSuggestedChordCell.swift */,
+				DC089F6D20BA3819008CB2DB /* Progression.swift */,
+				DC089F6F20BA390C008CB2DB /* Chord.swift */,
+				DC84FBAE20BD154500A0A5D8 /* GoogleService-Info.plist */,
 				DC8DB10720A2704C0007E934 /* Main.storyboard */,
+				DC84FB6B20BCCAA100A0A5D8 /* Audio */,
 				DC8DB10A20A2704C0007E934 /* Assets.xcassets */,
 				DC8DB10C20A2704C0007E934 /* LaunchScreen.storyboard */,
 				DC8DB10F20A2704C0007E934 /* Info.plist */,
@@ -132,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC8DB12820A2704C0007E934 /* Build configuration list for PBXNativeTarget "ChordSuggester" */;
 			buildPhases = (
+				00C19D6C5AE58855924BAA71 /* [CP] Check Pods Manifest.lock */,
 				DC8DB0FC20A2704C0007E934 /* Sources */,
 				DC8DB0FD20A2704C0007E934 /* Frameworks */,
 				DC8DB0FE20A2704C0007E934 /* Resources */,
+				D0874352D0C3735A7879ED8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC8DB12B20A2704C0007E934 /* Build configuration list for PBXNativeTarget "ChordSuggesterTests" */;
 			buildPhases = (
+				32A794D86D54A350B68B2604 /* [CP] Check Pods Manifest.lock */,
 				DC8DB11020A2704C0007E934 /* Sources */,
 				DC8DB11120A2704C0007E934 /* Frameworks */,
 				DC8DB11220A2704C0007E934 /* Resources */,
@@ -167,6 +335,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC8DB12E20A2704C0007E934 /* Build configuration list for PBXNativeTarget "ChordSuggesterUITests" */;
 			buildPhases = (
+				FCB9CAC4A0B1F0962C011905 /* [CP] Check Pods Manifest.lock */,
 				DC8DB11B20A2704C0007E934 /* Sources */,
 				DC8DB11C20A2704C0007E934 /* Frameworks */,
 				DC8DB11D20A2704C0007E934 /* Resources */,
@@ -232,8 +401,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC306C43210011A500A77D9A /* C#5.mp3 in Resources */,
+				DC306C37210011A500A77D9A /* E3.mp3 in Resources */,
+				DC306C39210011A500A77D9A /* D3.mp3 in Resources */,
+				DC306C3C210011A500A77D9A /* C#3.mp3 in Resources */,
+				DC306C30210011A500A77D9A /* G4.mp3 in Resources */,
+				DC306C28210011A500A77D9A /* D4.mp3 in Resources */,
+				DC306C41210011A500A77D9A /* F3.mp3 in Resources */,
 				DC8DB10E20A2704C0007E934 /* LaunchScreen.storyboard in Resources */,
+				DC306C31210011A500A77D9A /* F#5.mp3 in Resources */,
+				DC306C3B210011A500A77D9A /* G3.mp3 in Resources */,
+				DC306C3A210011A500A77D9A /* G#3.mp3 in Resources */,
+				DC306C2F210011A500A77D9A /* C3.mp3 in Resources */,
+				DC306C44210011A500A77D9A /* D#3.mp3 in Resources */,
 				DC8DB10B20A2704C0007E934 /* Assets.xcassets in Resources */,
+				DC306C38210011A500A77D9A /* B3.mp3 in Resources */,
+				DC306C46210011A500A77D9A /* E4.mp3 in Resources */,
+				DC306C3E210011A500A77D9A /* F#3.mp3 in Resources */,
+				DC306C32210011A500A77D9A /* C#4.mp3 in Resources */,
+				DC306C3F210011A500A77D9A /* F4.mp3 in Resources */,
+				DC306C3D210011A500A77D9A /* C4.mp3 in Resources */,
+				DC306C2E210011A500A77D9A /* D#4.mp3 in Resources */,
+				DC306C42210011A500A77D9A /* F5.mp3 in Resources */,
+				DC306C34210011A500A77D9A /* D#5.mp3 in Resources */,
+				DC306C36210011A500A77D9A /* C5.mp3 in Resources */,
+				DC306C29210011A500A77D9A /* A#4.mp3 in Resources */,
+				DC306C33210011A500A77D9A /* A4.mp3 in Resources */,
+				DC84FBAF20BD154600A0A5D8 /* GoogleService-Info.plist in Resources */,
+				DC306C45210011A500A77D9A /* B4.mp3 in Resources */,
+				DC306C35210011A500A77D9A /* A3.mp3 in Resources */,
+				DC306C2D210011A500A77D9A /* G#4.mp3 in Resources */,
+				DC306C2B210011A500A77D9A /* D5.mp3 in Resources */,
+				DC306C2C210011A500A77D9A /* F#4.mp3 in Resources */,
+				DC306C2A210011A500A77D9A /* E5.mp3 in Resources */,
+				DC306C40210011A500A77D9A /* A#3.mp3 in Resources */,
 				DC8DB10920A2704C0007E934 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +455,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00C19D6C5AE58855924BAA71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChordSuggester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32A794D86D54A350B68B2604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChordSuggesterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0874352D0C3735A7879ED8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChordSuggester/Pods-ChordSuggester-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChordSuggester/Pods-ChordSuggester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB9CAC4A0B1F0962C011905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChordSuggesterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC8DB0FC20A2704C0007E934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC089F7020BA390C008CB2DB /* Chord.swift in Sources */,
+				DC089F6E20BA3819008CB2DB /* Progression.swift in Sources */,
+				DC0CEDBA20B5E27C00D9575A /* ProgressionViewController.swift in Sources */,
+				DC90D70320BB756F00E42603 /* CustomChordCell.swift in Sources */,
+				DC90D70120BB3BE200E42603 /* CustomTableViewCell.swift in Sources */,
 				DC8DB10620A2704C0007E934 /* ViewController.swift in Sources */,
+				DC4B342020A654D000C3DCE1 /* SetupViewController.swift in Sources */,
+				DC84FBAD20BD0C7500A0A5D8 /* CustomSuggestedChordCell.swift in Sources */,
 				DC8DB10420A2704C0007E934 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,10 +713,13 @@
 		};
 		DC8DB12920A2704C0007E934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6083801BDD5782A4FE1A5239 /* Pods-ChordSuggester.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64548X6W8H;
 				INFOPLIST_FILE = ChordSuggester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jk.ChordSuggester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +730,13 @@
 		};
 		DC8DB12A20A2704C0007E934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB16323007E77899343D7A4 /* Pods-ChordSuggester.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64548X6W8H;
 				INFOPLIST_FILE = ChordSuggester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jk.ChordSuggester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +747,7 @@
 		};
 		DC8DB12C20A2704C0007E934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA087C49CBB389A3BD822322 /* Pods-ChordSuggesterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +764,7 @@
 		};
 		DC8DB12D20A2704C0007E934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3ED2E7A6C38EF6714EC4258 /* Pods-ChordSuggesterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +781,7 @@
 		};
 		DC8DB12F20A2704C0007E934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D79FAB9A064BB5A88396A99 /* Pods-ChordSuggesterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +797,7 @@
 		};
 		DC8DB13020A2704C0007E934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1817BC52D365DDE59A28095 /* Pods-ChordSuggesterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
